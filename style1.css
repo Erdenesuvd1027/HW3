@@ -1,0 +1,101 @@
+/*Style*/
+body{
+    background-color: rgb(252,251,247);
+    font:15px sans-serif;
+    justify-content:center;
+    text-align: center;
+}
+
+/*-----Header section style-----*/
+header{
+    display: flex;
+    position: absolute;
+}
+
+.left{
+    display: flex;
+    align-items:center;
+    margin-left: 100px;
+}
+.right{
+    display: flex;
+    margin-left: 300px;
+    align-items:center;
+    padding-top: 30px;
+}
+.right i {
+    font-size: 15px;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: normal;
+}
+
+/*-----Nav style--------*/
+.nav {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.nav a{
+    color: black ;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}   
+
+/*------Main layout-----------*/
+#main-layout{
+    display: flex;
+    justify-content: space-around;
+}
+.main-item{
+    width: 50%; 
+    margin-left: 130px;
+    text-align: start; 
+    align-content: stretch;
+}
+.main-item h1{
+    padding-top: 200px;
+    text-align: start; 
+    font-size: 40px;
+}
+.main-item h2{
+    color: rgb(93, 130, 199);
+    text-align: start; 
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: -2%;
+}
+.main-item h3{
+    text-align: start; 
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -2%;
+}
+
+/*----------Button style-----------*/
+.btnSet {
+    border-radius: 28px;
+    color: white;
+    background-color: rgb(244, 219, 59);
+    border: none;
+    font-size: 20px;
+    padding: 16px 28px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.button {
+    border-radius: 28px;
+    color: white;
+    background-color: rgb(93, 130, 199);
+    border: none;
+    font-size: 15px;
+    padding: 10px 24px;
+    margin-left: 200px;
+}
